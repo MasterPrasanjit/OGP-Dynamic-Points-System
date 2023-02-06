@@ -1,1 +1,3 @@
 # OGP-Dynamic-Points-System
+
+The code calculates the points for each position in a competition based on a predetermined (official F1) points table, where the first position gets 25 points and each subsequent position gets progressively fewer points. The total number of positions is taken as an input and if it is greater than 10, all positions beyond the 10th are considered "residual positions" and assigned 0 points. The points for the first position are determined based on the total number of positions, and the ratio of points between the first and subsequent positions is used to calculate the points for each of those positions. The points for each position are then added to a new points table and returned as the result.
